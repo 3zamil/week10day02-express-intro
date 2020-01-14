@@ -75,9 +75,7 @@ $ code .
 
 - `npm init` will initialize a new Node.js application. Upon initialization, it will prompt you for your input in order to update the `package.json`.
 
-- If we hit enter and use all of the default values (except for the `server.js`) and we take a look at the contents of the `package.json` file, we'll see something like this:
-
-![](https://i.imgur.com/mP6KyeW.png)
+- If we hit enter and use all of the default values (except for the `server.js`) and we take a look at the contents of the `package.json` file.
 
 - The `package.json` file contains meta data about your app or module. More importantly, it includes the list of dependencies to install from npm when running npm install. **We** certainly don't want to keep track of them!  This makes it really easy for other people to work on the same app.  All they need to do is clone your repo, and then npm install all of the dependencies in order to start working on the app.
 
