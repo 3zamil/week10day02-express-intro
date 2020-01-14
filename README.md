@@ -7,8 +7,6 @@
 - Use `npm` to manage project dependencies
 - Use `require` to organize code
 - Install Nodemon
-- Understand request/response
-- Understand dynamic segments
 
 <br />
 
