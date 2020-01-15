@@ -10,9 +10,9 @@
 
 <br />
 
-## What Are We Learning This Afternoon?
+## What Are We Learning This Morning?
 
-This afternoon, we are going to learn about how to set up and configure a server that will listen for HTTP requests from the browser.
+This morning, we are going to learn about how to set up and configure a server that will listen for HTTP requests from the browser.
 
 <br />
 
