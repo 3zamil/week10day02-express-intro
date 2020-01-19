@@ -125,9 +125,7 @@ app.get('/', function(req, res) {
   // when a request comes in at localhost:3000, it will respond 
 });
 
-const port = process.env.PORT || 3000; // tells the server where to listen for requests
-
-app.listen(port, function() {
+app.listen(3000, function() {
   // tells the server where to listen for requests on port 3000
 
   console.log('hello-express is listening on port ' + port);
