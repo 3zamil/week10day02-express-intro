@@ -117,7 +117,7 @@ We could have also entered express manually- to the dependencies list in our pac
 2. Let's make a new file `$ touch server.js` and add the following contents:
 
 ```javascript
-const express = require('express'); // Loading the express module on our server
+import express from 'express'; // Loading the express module on our server
 const app = express(); // Creates a new instance of express on our server
 
 
