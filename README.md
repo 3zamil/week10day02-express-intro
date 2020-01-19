@@ -117,7 +117,7 @@ We could have also entered express manually- to the dependencies list in our pac
 2. Let's make a new file `$ touch server.js` and add the following contents:
 
 ```javascript
-import express from 'express'; // Loading the express module on our server
+const express = require('express'); // Loading the express module on our server
 const app = express(); // Creates a new instance of express on our server
 
 
@@ -155,7 +155,7 @@ With express invoked and running, we now have access to various functions and pr
 
 ## Let's Run Our App
 
-If we run the application (`$ node server.js`) we can see our console.log in the terminal `hello-express is listening on port 3000`. This means that our server is running on port 3000. Let's try going to the localhost of that port number. What happens?
+If we run the application (`$ node server.js`) we can see our console.log in the terminal `hello-express is listening on port 3000`. Let's try going to the localhost of that port number. What happens?
 
 #### OH NOES, what's going on here?
 
