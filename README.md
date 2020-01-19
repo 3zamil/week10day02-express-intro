@@ -32,7 +32,7 @@ Express is much less opinionated. We have a lot of freedom in how we structure o
 
 &#x1F535; **YOU DO: 5 minutes**
 
-With you buddy, discuss the following questions:
+With your buddy, discuss the following questions:
 
 - What are the **HTTP verbs** and how are they used?
 - What are the different parts of a URL and what is the purpose of each?
