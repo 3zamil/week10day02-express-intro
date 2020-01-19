@@ -69,7 +69,6 @@ $ npm init
 that to 'server.js'.
 // if you make a mistake, you can always type 'no' when it asks
 you whether this is 'ok' at the end of the questions/set up
-$ code .
 ```
 
 - `npm init` will initialize a new Node.js application. Upon initialization, it will prompt you for your input in order to update the `package.json`.
