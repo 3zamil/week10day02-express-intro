@@ -226,7 +226,7 @@ Get together with your buddy. Remember: We are here and you can still ask questi
 
 http://expressjs.com/en/starter/basic-routing.html
 
-1. Write a second route underneath the first that listens for `/greeting` and responds with `'Hey, WDI 13!'`
+1. Write a second route underneath the first that listens for `/greeting` and responds with `'Hey, SEI 9!'`
 
 1. Write a third route underneath the that one that listens for `/rihanna` and responds with `"Work work work work work"`
 
@@ -235,7 +235,7 @@ http://expressjs.com/en/starter/basic-routing.html
 
 ```javascript
 app.get('/greeting', (req, res) => {
-  res.send('HEY, WDI 13!');
+  res.send('HEY, SEI 9!');
 });
 
 app.get('/rihanna', (req, res) => {
