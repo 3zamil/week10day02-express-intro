@@ -227,20 +227,6 @@ http://expressjs.com/en/starter/basic-routing.html
 
 1. Write a third route underneath the that one that listens for `/rihanna` and responds with `"Work work work work work"`
 
-<details>
-<summary>SOLUTION</summary>
-
-```javascript
-app.get('/greeting', (req, res) => {
-  res.send('HEY, SEI 9!');
-});
-
-app.get('/rihanna', (req, res) => {
-  res.send("Work work work work work");
-});
-```
-</details>
-
 <br />
 
 **Stretch Goal**: Implement `req.query` functions in one of your routes explanation [here](http://expressjs.com/en/api.html#req.query)
